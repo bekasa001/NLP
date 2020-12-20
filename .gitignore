@@ -1,0 +1,19 @@
+# ignore all
+*
+*
+
+# allow them
+!*/
+!.gitignore
+!*.py
+!*.sh
+!*.txt
+!*.tex
+!*.png
+!*.json
+!chap02/16_sh*
+
+# ignore them
+report/*
+tmp/*
+test/*

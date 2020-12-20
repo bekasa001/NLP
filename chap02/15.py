@@ -1,0 +1,5 @@
+file_in = open('popular-names.txt')
+N = int(input())
+lines = list(file_in.readlines())
+string = ''.join(lines[-N:])
+print(string, end = '')
